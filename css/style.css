@@ -115,3 +115,9 @@ footer{
         right: 0;
     }
 }
+@media screen and (max-width: 480px) {
+    #contents {width: 100%;}
+    header {width: 100%;}
+    .sub li:nth-child(3n+3) {display: none;}
+    .sub li {width: 50%;}
+}
